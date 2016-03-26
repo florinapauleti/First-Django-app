@@ -1,0 +1,23 @@
+h1 {
+	color: #a94442;
+	font-family: 'Comic Sans';
+}
+h1 a {
+	color: #a94442;
+	font-family: 'Comic Sans';
+}
+h2 {
+	color: #a94442;
+	font-family: 'Comic Sans';
+}
+body {
+    padding-left: 15px;
+}
+.page-header{
+	margin-top: 0;
+	font-size: 36pt;
+    padding: 20px 20px 20px 40px;
+}
+.page-header h1{
+	font-size: 50pt;
+}
