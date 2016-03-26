@@ -8,5 +8,10 @@
         <p><h1>Django Girls</h1></p>
         <p>publicat astazi: 26.03.2016</p>
         <p><strong>Astazi voi povesti despre cum a fost la Django Girls</strong></p>
+        {% for post in posts %}
+    		<p>published: {{ post.published_date }}</p>
+        	<h1><a href="">{{ post.title }}</a></h1>
+        	<p>{{ post.text|linebreaks }}</p>
+		{% endfor %}
     </body>
 </html>
